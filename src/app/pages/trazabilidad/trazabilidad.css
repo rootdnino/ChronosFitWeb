@@ -1,0 +1,5 @@
+.dashboard-container { max-width: 900px; margin: 0 auto; padding: 20px; font-family: Roboto, sans-serif; color: #ffffff; background-color: #1e1e1e; min-height: 100vh;}
+.dashboard-header h2 { margin: 0 0 20px 0; font-size: 20px; font-weight: 500; }
+.stats-grid { display: flex; flex-direction: column; gap: 15px; }
+.stat-box { background-color: #2a2a2a; border: 1px solid #444; border-radius: 8px; padding: 20px; }
+.stat-box h3 { font-size: 14px; margin-top: 0; color: #cccccc; }

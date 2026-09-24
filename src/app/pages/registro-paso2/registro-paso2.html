@@ -1,0 +1,35 @@
+<div class="page-container">
+  <mat-card class="dark-card">
+    <mat-card-header class="center-header">
+      <mat-card-title>CUENTANOS SOBRE TI - PASO 2/2</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content class="form-content">
+      <p class="orange-text">¿CUAL ES TU META NUTRICIONAL?</p>
+      <mat-form-field appearance="outline" class="full-width dark-input">
+        <mat-select value="hipertrofia">
+          <mat-option value="deficit">DÉFICIT CALÓRICO</mat-option>
+          <mat-option value="mantenimiento">MANTENIMIENTO</mat-option>
+          <mat-option value="hipertrofia">HIPERTROFIA</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <p class="orange-text">¿UTILIZAS SMARTWATCH?</p>
+      <mat-form-field appearance="outline" class="full-width dark-input">
+        <mat-select value="none">
+          <mat-option value="apple">Apple Watch</mat-option>
+          <mat-option value="garmin">Garmin</mat-option>
+          <mat-option value="none">No uso</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <p class="text-muted">Completa formulario con objetivo físico</p>
+    </mat-card-content>
+
+    <mat-card-actions class="action-buttons">
+      <!-- Navega al dashboard al terminar el registro -->
+      <button mat-raised-button class="btn-green full-width" routerLink="/dashboard">
+        GUARDAR Y CONTINUAR
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

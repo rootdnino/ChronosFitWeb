@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e; /* Fondo negro/oscuro de ChronosFit */
+  color: #ffffff; /* Texto blanco por defecto */
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  height: 100%;
+}/* You can add global styles to this file, and also import other style files */
+
+.main-nav {
+  display: flex;
+  gap: 25px;
+  padding: 15px 20px;
+  background-color: #1e1e1e; /* Fondo oscuro */
+  border-bottom: 1px solid #333333; /* Línea separadora sutil */
+}
+.main-nav a {
+  text-decoration: none;
+  color: #ffffff; /* Texto blanco */
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  cursor: pointer;
+}
+.main-nav a:hover {
+  color: #4caf50; /* Verde ChronosFit al pasar el mouse */
+}

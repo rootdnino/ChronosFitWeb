@@ -1,0 +1,67 @@
+<!-- Menú superior -->
+<nav class="main-nav">
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/trazabilidad">Trazabilidad</a>
+  <a routerLink="/perfil">Perfil</a>
+  <a routerLink="/login">Cerrar Sesión</a>
+</nav>
+
+<!-- Contenido del Dashboard -->
+<div class="dashboard-container">
+  <!-- Franja de sincronización -->
+  <div class="sync-banner">
+    SINCRONIZANDO TUS RUTINAS DESDE LA NUBE...
+  </div>
+
+  <div class="dashboard-header">
+    <h2>TU SEMANA VISUAL</h2>
+    <button mat-raised-button class="btn-nuevo" routerLink="/nuevo-evento">
+      + NUEVO EVENTO
+    </button>
+  </div>
+
+  <!-- Cuadrícula -->
+  <div class="grid-wrapper">
+    <div class="dias-header">
+      <span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span>
+    </div>
+    
+    <div class="dias-grid">
+      <!-- Fila 1 -->
+      <div class="cell"><div class="pill green"></div></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"><div class="pill red"></div></div>
+      <div class="cell"><div class="pill green"></div></div>
+      <div class="cell"></div>
+
+      <!-- Fila 2 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"><div class="pill green"></div></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"><div class="pill red"></div></div>
+      <div class="cell"></div>
+
+      <!-- Fila 3 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"><div class="pill orange"></div></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+
+      <!-- Fila 4 -->
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+  </div>
+</div>

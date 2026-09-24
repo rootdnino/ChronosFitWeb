@@ -1,0 +1,105 @@
+.login-wrapper {
+  padding: 40px;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #1e1e1e; /* Fondo negro */
+  min-height: 100vh;
+  box-sizing: border-box;
+  /* Centrado del contenedor principal */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.login-header {
+  text-align: center; /* Centra el logo y los textos */
+}
+
+.app-logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.logo-text {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+  color: #ffffff;
+}
+
+.subtitle-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  color: #cccccc;
+}
+
+.login-form {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.input-field {
+  width: 250px;
+}
+
+/* Fondo blanco y bordes suaves para los inputs */
+::ng-deep .mdc-text-field--outlined {
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+/* Mejora la visibilidad del label y el texto sobre el fondo blanco */
+::ng-deep .mat-mdc-form-field-label {
+  color: #666666 !important;
+}
+::ng-deep .mat-mdc-input-element {
+  color: #000000 !important;
+}
+
+::ng-deep .mat-mdc-form-field-subscript-wrapper {
+  display: none; 
+}
+
+.login-actions {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 515px;
+}
+
+.btn-login {
+  background-color: #ff4500; 
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px; 
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-login:hover {
+  background-color: #cc3700;
+}
+
+.login-footer {
+  border-top: 1px solid #444444;
+  padding-top: 15px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 515px;
+  text-align: center; 
+}
+
+.link-blue {
+  color: #ffffff; 
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.text-dark {
+  color: #aaaaaa;
+}

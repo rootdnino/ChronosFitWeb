@@ -1,0 +1,27 @@
+<nav class="main-nav">
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/trazabilidad">Trazabilidad</a>
+  <a routerLink="/perfil">Perfil</a>
+  <a routerLink="/login">Cerrar Sesión</a>
+</nav>
+
+<div class="page-container">
+  <mat-card class="dark-card">
+    <mat-card-header class="center-header">
+      <mat-card-title>CONFIGURA TU VENTANA METABÓLICA</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content class="toggle-section">
+      <mat-slide-toggle color="primary">Activar alarma Pre-Entreno</mat-slide-toggle>
+      <mat-slide-toggle color="accent">Activar alarma Suplemento Post</mat-slide-toggle>
+      <p class="text-muted">Ventana metabólica calculada y guardada</p>
+    </mat-card-content>
+
+    <mat-card-actions class="action-buttons">
+      <!-- Navega de vuelta al dashboard al guardar -->
+      <button mat-raised-button class="btn-green full-width" routerLink="/dashboard">
+        GUARDAR EVENTOS
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,33 @@
+<nav class="main-nav">
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/trazabilidad">Trazabilidad</a>
+  <a routerLink="/perfil">Perfil</a>
+  <a routerLink="/login">Cerrar Sesión</a>
+</nav>
+
+<div class="page-container">
+  <mat-card class="form-card dark-card">
+    <mat-card-header>
+      <mat-card-title>NUEVO EVENTO</mat-card-title>
+      <mat-card-subtitle>Añade un entrenamiento a tu semana</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content class="form-content">
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Nombre del Entrenamiento</mat-label>
+        <input matInput placeholder="Ej. Entrenamiento Fuerza">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Hora</mat-label>
+        <input matInput type="time" value="18:00">
+      </mat-form-field>
+    </mat-card-content>
+
+    <mat-card-actions class="action-buttons">
+      <button mat-raised-button class="btn-green full-width" routerLink="/ventana-metabolica">
+        DEFINIR ANCLA
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
